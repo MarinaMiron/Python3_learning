@@ -1,0 +1,5 @@
+virtual environment:
+____________________________________
+
+py -m venv env - pentru env nou
+source env/Scripts/activate - pentru activare env
