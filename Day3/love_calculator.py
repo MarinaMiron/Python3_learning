@@ -19,7 +19,7 @@ love_score = int(str(true_oc) + str(love_oc))
 
 if love_score <= 10 or love_score >= 90:
     print(f"Your score is {love_score}, you go together like coke and mentos.")
-elif love_score >= 40 or love_score <= 50:
+elif love_score >= 40 and love_score <= 50:
     print(f"Your score is {love_score}, you are alright together.")
 else:
     print(f"Your score is {love_score}.")

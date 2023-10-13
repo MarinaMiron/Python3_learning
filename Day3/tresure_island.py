@@ -31,12 +31,12 @@ if choice1 == "left":
     elif choice2 == "swim":
         print("The lake is full of skarks. They eat you. Game over.")
 
-    if choice3 == "yellow":
-        print("You found the tresure. You win!")
-    elif choice3 == "red":
-        print("The room is full of fire. Game over.")
-    elif choice3 == "blue":
-        print("You got eaten by beasts. Game over.")
+        if choice3 == "yellow":
+            print("You found the tresure. You win!")
+        elif choice3 == "red":
+            print("The room is full of fire. Game over.")
+        elif choice3 == "blue":
+            print("You got eaten by beasts. Game over.")
     else:
         print("Game over.")
 elif choice1 == "right":
