@@ -28,7 +28,7 @@ import random
 rps = [rock, paper, scissors]
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 if user_choice > 2 or user_choice < 0:
-    print("Invalid choice. Please choose a valid option.")
+    print("Invalid choice. Please choose a valid option. Game over!")
 else:
     user_choice = rps[user_choice]
     print(user_choice)
