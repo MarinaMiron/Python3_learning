@@ -1,7 +1,7 @@
 from art import *
 from game_data import data
 import random
-from clear import clear
+from replit import clear
 
 def get_name():
     """Generate a random choice and removes it from the dictionary,
