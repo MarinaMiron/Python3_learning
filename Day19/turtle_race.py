@@ -13,13 +13,12 @@ all_turtles = []
 for turtle_index in range(0, 6):
     new_turtle = Turtle(shape="turtle")
     new_turtle.color(colors[turtle_index])
-    new_turtle.shapesize(2)
     new_turtle.penup()
     new_turtle.goto(x=-230, y=turtle_y)
     all_turtles.append(new_turtle)
-    turtle_y+= 40
+    turtle_y+= 30
 
-while user_bet:
+if user_bet:
     is_race_on = True
 
 while is_race_on:
