@@ -6,7 +6,7 @@ screen = Screen()
 screen.setup(width=500, height=400)
 user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Enter a color:")
 colors = ["red", "orange", "yellow", "green", "blue", "purple"]
-turtle_y= -100
+turtle_y= -70
 all_turtles = []
 
 #Create 6 turtles
