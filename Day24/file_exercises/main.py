@@ -5,6 +5,6 @@
 # with open("Day24\my_file.txt", mode="a") as file:
 #     file.write("\nNew text.")
 
-with open("new_file.txt", mode="w") as file:
+with open("Day24/new_file.txt", mode="w") as file:
     file.write("New text.")
 
